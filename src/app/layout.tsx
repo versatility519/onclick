@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import * as React from 'react';
 
 import Button from '@/components/buttons/Button';
+import TextButton from '@/components/buttons/TextButton';
+import Footer from '@/components/Footer'
 
 import '@/styles/globals.css';
 // !STARTERCONF This is for demo purposes, remove @/styles/colors.css import immediately
@@ -44,18 +46,22 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <div className='flex px-4 justify-between'>
-          <div className=' '>
-            <p>every1.click</p>
+        <div className='flex w-full py-2 bg-red-600 justify-between px-4'>
+          <div className='text-white  '>
+            <p className='font-semibold text-2xl'>every1.click</p>
             <p>Secure Your Pixels, Own Your Space</p>
           </div>
 
-          <div>
-            <p>every1.click</p>
-            <p>Secure Your Pixels, Own Your Space</p>
+          <div className='flex text-nowrap items-center  gap-2'>
+            <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-slate-400 text-black'>Download Now</div>
+            <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-slate-400 text-black'>Continue Online</div>
           </div>
         </div>
-        {children}</body>
+        <div className='bg-slate-50'>
+          {children}
+        </div>
+        <Footer />
+      </body>
     </html>
   );
 }
