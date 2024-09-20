@@ -1,11 +1,8 @@
 'use client';
 
-import Head from 'next/head';
 import * as React from 'react';
 import '@/lib/env';
-
-import Card from '@/components/Card';
-
+ 
 /**
  * The main component for the Flagship page.
  * This component is responsible for rendering the content of the Flagship page, including the hero section, the desktop demo, and the feature cards.
@@ -39,8 +36,8 @@ export default function Flagship() {
 
       </div>
 
-      <div>
-        asdfafda
+      <div className='flex items-center justify-center w-full'>
+        <p className='text-3xl font-extrabold'>Coming soon...</p> 
       </div>
 
     </div>
