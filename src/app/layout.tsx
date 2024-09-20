@@ -47,7 +47,7 @@ export default function RootLayout({
               src={Logo}
               alt="Picture of the author"
             />
-            <div className=''>
+            <div className='text-nowrap'>
               <p className='font-semibold text-2xl'>every1.click</p>
               <p className=''>Secure Your Pixels, Own Your Space</p>
             </div>

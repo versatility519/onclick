@@ -15,12 +15,13 @@ export default function HomePage() {
 
     <div className='flex flex-col w-full items-center justify-center'>
       <div className="relative sm:p-8 p-2">
-        <img src="https://spunout-images.s3.amazonaws.com/articles/using-laptops-and-computers_t20_0xneEo.jpg" alt="Your Image" className=" rounded-lg " />
-        <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <p className="text-white text-[vw] font-bold py-4">Available Now on Desktop</p>
-          <p className="text-white text-3xl font-bold bg-gray-100 hover:bg-green-400  bg-opacity-50 px-4 py-2 rounded">
-            <a href="https://s3.us-east-2.amazonaws.com/every1.click/every1.click+1.1.0.appx" id="overlayDownloadLink"
-              target="_blank">Download Now</a>
+        <img src="https://www.collectivemeasures.com/wp-content/uploads/2020/07/fullsizeoutput_1b6-scaled.jpeg" alt="Your Image" className="rounded-lg" />
+        <div className="absolute inset-0 flex flex-col gap-8 items-center justify-center">
+          <p className="flex text-white text-center lg:text-[4vw]  md:text-3xl  text-2xl font-bold px-2">Available Now on Desktop</p>
+          <p className="text-white  lg:text-3xl md:text-2xl text-lg font-bold bg-gray-100 hover:bg-green-400 bg-opacity-50 px-4 py-2 rounded">
+            <a href="https://s3.us-east-2.amazonaws.com/every1.click/every1.click+1.1.0.appx" id="overlayDownloadLink" target="_blank">
+              Download Now
+            </a>
           </p>
         </div>
       </div>

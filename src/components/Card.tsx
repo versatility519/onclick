@@ -8,7 +8,7 @@ const Card: React.FC<CardProps> = ({ image, title, description }) => {
     <div className={` flex flex-col rounded-lg py-4 hover:shadow-lg bg-gray-200 text-center`}>
       <div className=" flex justify-between px-6 py-4 ">
         <img
-          className="rounded-lg hover:scale-105 hover:transition  w-full h-72"
+          className="rounded-lg hover:scale-105 hover:transition  w-full lg:h-60 sm:h-56 h-48 "
           src={image} alt="Online Community" />
       </div>
       <p className="text-lg text-blue-500 hover:text-orange-400 cursor-text py-3">{title}</p>
