@@ -54,7 +54,7 @@ export default function RootLayout({
           </Link>
 
           {/* <div className='grid sm:grid-cols-2 gap-2 items-center text-nowrap pr-4 '> */}
-          <div className='flex items-center text-nowrap gap-2 px-4 '>
+          <div className='flex items-center justify-around text-nowrap gap-2 px-4 '>
             <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-green-400 text-black'>
               <a href="https://s3.us-east-2.amazonaws.com/every1.click/every1.click+1.1.0.appx" id="downloadLink"
                 target="_blank">Download Now</a>
@@ -64,7 +64,7 @@ export default function RootLayout({
             </div>
 
             {/* <div className="mx-auto flex h-screen w-full items-center justify-center bg-gray-200 py-20"> */}
-            <div className="group w-full  relative cursor-pointer py-2">
+            <div className=" group relative cursor-pointer py-2">
 
               {/* <div className="flex items-center justify-between p-2 bg-white px-4"> */}
                 {/* <a className="menu-hover my-2 py-2 text-base font-medium text-black lg:mx-4" > */}

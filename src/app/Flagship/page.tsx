@@ -10,12 +10,12 @@ import '@/lib/env';
 export default function Flagship() {
   return (
 
-    <div className='flex w-full '>
+    <div className='flex flex-col '>
       <div className='w-[32rem] px-2 border-r-2 items-center h-screen flex flex-col gap-4 justify-center  text-center border-black'>
-        <div className='flex flex-col gap-4'>
+        <div className='flex w-full  flex-col gap-4'>
 
           <p className=' text-xl'>The Advantage</p>
-          <div className='flex  flex-col gap-4 rounded-lg p-4 text-center border border-black'>
+          <div className='flex   flex-col gap-4 rounded-lg p-4 text-center border border-black'>
             <p>Big Tech ➔ Advertisers ➔ Websites ➔ You</p>
             <p>Traditional flow where profits stop at big companies. Websites display ads, but users gain nothing directly.</p>
             <p>$4.45/day (You help them make)</p>
