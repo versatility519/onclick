@@ -4,19 +4,6 @@ import Head from 'next/head';
 import * as React from 'react';
 import '@/lib/env';
 
-import ArrowLink from '@/components/links/ArrowLink';
-import ButtonLink from '@/components/links/ButtonLink';
-import UnderlineLink from '@/components/links/UnderlineLink';
-import UnstyledLink from '@/components/links/UnstyledLink';
-
-/**
- * SVGR Support
- * Caveat: No React Props Type.
- *
- * You can override the next-env if the type is important to you
- * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
- */
-import Logo from '~/svg/Logo.svg';
 import Card from '@/components/Card';
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
@@ -26,8 +13,27 @@ import Card from '@/components/Card';
 export default function HomePage() {
   return (
 
-    <div className='flex  justify-center '>
-      <div className='flex flex-col gap-4 justify-center items-center lg:w-[76rem] w-full rounded-lg bg-white border p-2'>
+    <div className='flex flex-col w-full items-center justify-center'>
+      <div className="relative sm:p-8 p-2">
+        <img src="https://spunout-images.s3.amazonaws.com/articles/using-laptops-and-computers_t20_0xneEo.jpg" alt="Your Image" className=" rounded-lg " />
+        <div className="absolute inset-0 flex flex-col items-center justify-center">
+          <p className="text-white text-[vw] font-bold py-4">Available Now on Desktop</p>
+          <p className="text-white text-3xl font-bold bg-gray-100 hover:bg-green-400  bg-opacity-50 px-4 py-2 rounded">
+            <a href="https://s3.us-east-2.amazonaws.com/every1.click/every1.click+1.1.0.appx" id="overlayDownloadLink"
+              target="_blank">Download Now</a>
+          </p>
+        </div>
+      </div>
+
+      <div className='flex flex-col gap-4 justify-center items-center xl:w-[72rem] w-full rounded-lg bg-white border px-2 py-6 mt-8 '>
+        <p className='text-2xl text-center'>Desktop Demo - Learn how to use a corner of your desktop to make money with our toolbar.</p>
+        <video className='rounded-md' width="640" height="360" controls muted preload="none">
+          <source src="/path/to/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div className='flex flex-col gap-4 justify-center items-center xl:w-[72rem] w-full rounded-lg bg-white border p-2 mt-8 '>
         <div className='flex flex-col text-center gap-3 py-4'>
           <p className='text-2xl text-blue-600 font-bold'>Your Data, Your Rules</p>
           <p className='text-lg'> OCYRUS empowers you to take control of your online experience. Stop being the product—start owning your space.</p>
@@ -48,7 +54,7 @@ export default function HomePage() {
             image="https://www.diabetesdaily.com/wp-content/blogs.dir/21/files/2020/12/iStock-641032540-scaled.jpg" />
         </div>
 
-        <div className='grid md:grid-cols-2 grid-flow-row  gap-4'>
+        <div className='grid md:grid-cols-2 grid-flow-row w-full gap-4'>
           <Card
             title="Relax and Earn"
             description={"Enjoy your downtime while OCYRUS helps you earn money without lifting a finger."}
