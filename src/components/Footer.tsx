@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
 
   return (
     <div className=' bg-green-700 py-8 text-white '>
-      <div className="flex md:flex-row flex-col  lg:gap-14 gap-4 px-12">
+      <div className="flex md:flex-row flex-col  lg:gap-14 gap-4 px-8">
         <p className="text-3xl font-bold text-nowrap"> Newsletter Signup</p>
         <form className="flex gap-2 items-center" onSubmit={handleSubmit}>
           <input className='w-full rounded-md' type="email" name="email" placeholder="Your Email Address" required />
