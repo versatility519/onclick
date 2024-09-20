@@ -55,11 +55,11 @@ export default function RootLayout({
 
           {/* <div className='grid sm:grid-cols-2 gap-2 items-center text-nowrap pr-4 '> */}
           <div className='flex items-center text-nowrap gap-2 px-4 '>
-            <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-slate-400 text-black'>
+            <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-green-400 text-black'>
               <a href="https://s3.us-east-2.amazonaws.com/every1.click/every1.click+1.1.0.appx" id="downloadLink"
                 target="_blank">Download Now</a>
             </div>
-            <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-slate-400 text-black'>
+            <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-green-400 text-black'>
               Continue Online</div>
           </div>
         </div>
