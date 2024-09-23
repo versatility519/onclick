@@ -40,11 +40,6 @@ export default function RootLayout({
       <body>
         <div className='sm:flex flex-none w-full py-2 bg-red-600 justify-between'>
           <Link href={'/'}>
-
-
-
-
-
             <div className='flex items-center text-white  '>
               <Image
                 className='w-20 h-20 rounded-full'
@@ -57,25 +52,17 @@ export default function RootLayout({
               </div>
             </div>
           </Link>
-        
+
           {/* <div className='grid sm:grid-cols-2 gap-2 items-center text-nowrap pr-4 '> */}
           <div className='flex items-center text-base justify-around text-nowrap gap-2 px-4 '>
             <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-green-400 text-black'>
               <a href="https://s3.us-east-2.amazonaws.com/every1.click/every1.click+1.1.0.appx" id="downloadLink"
-                target="_blank">Download Now</a>  
+                target="_blank">Download Now</a>
             </div>
             <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-green-400 text-black'>
               <Link href="/Flagship">Continue Online</Link>
             </div>
 
-
-
-
-
-
-
-
-{/* 
             {/* <div className="mx-auto flex h-screen w-full items-center justify-center bg-gray-200 py-20"> */}
             <div className=" group relative cursor-pointer py-2">
 
@@ -84,12 +71,9 @@ export default function RootLayout({
                   <LuAlignJustify className='text-white size-8 my-2 rounded-lg' />
                 {/* </a> */}
                  
-
-
-
               {/* </div> */}
 
-              <div */}
+              <div
                 className="invisible absolute right-0 z-50 flex   flex-col bg-gray-100 py-1 px-4 text-gray-800 shadow-xl group-hover:visible">
 
                 <a className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
