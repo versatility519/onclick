@@ -51,7 +51,6 @@ export default function RootLayout({
                 <p className=''>Secure Your Pixels, Own Your Space</p>
               </div>
             </div>
-            
           </Link>
 
           {/* <div className='grid sm:grid-cols-2 gap-2 items-center text-nowrap pr-4 '> */}
