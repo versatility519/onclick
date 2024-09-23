@@ -57,7 +57,7 @@ export default function RootLayout({
           <div className='flex items-center text-base justify-around text-nowrap gap-2 px-4 '>
             <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-green-400 text-black'>
               <a href="https://s3.us-east-2.amazonaws.com/every1.click/every1.click+1.1.0.appx" id="downloadLink"
-                target="_blank">Download Now</a>
+                target="_blank">Download Now</a>  
             </div>
             <div className='bg-white cursor-pointer rounded-md px-2 py-1 hover:bg-green-400 text-black'>
               <Link href="/Flagship">Continue Online</Link>
