@@ -29,7 +29,6 @@ const Footer: React.FC = () => {
 
         <div>
           <p className=" font-bold py-2">More</p>
-
           <p>Join</p>
           <p>Download</p>
           <p>Online</p>
