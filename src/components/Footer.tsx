@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
           <p>Contact Us</p>
           <p>Privacy Policy</p>
         </div>
-
+ 
         <div>
           <p className=" font-bold py-2">More</p>
 
